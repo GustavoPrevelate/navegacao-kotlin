@@ -54,6 +54,7 @@ class MainActivity : ComponentActivity() {
                             var nome = it.arguments!!.getString("nomeUsuario")
                             var idade = it.arguments!!.getString("idadeUsuario")
                             PerfilScreen(navController, nome!!, idade!!)
+                            //Enviando para o git
                         }
                     }
                 }
